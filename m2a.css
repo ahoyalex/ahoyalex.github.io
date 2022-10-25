@@ -6,8 +6,8 @@
 
 
 body {
-    background-color: rgba(0, 27, 25, 0.606);
-    color:white;
+background-color:rgba(255, 255, 127, 0.583);    
+color:white;
     font-family:'Rubik';
  }
 
@@ -43,10 +43,7 @@ body {
 
 @media only screen and (max-width: 600px) {
 .marketMain_SuperWrap {
-   
     border-style: solid;
-
-
 }
 }
 
@@ -59,8 +56,11 @@ body {
 
 }
 
+/*MARKET PADDING SYSTEM */
+
+
 .marketMain_Item {
-    height:250px;
+    height:300px;
     min-width:200px;
     background-color:#000000!important;
     display: flex;
@@ -70,8 +70,9 @@ body {
 
 .marketMain_Item div{
 
-    background-color:#ff4040!important;
+    background-color:#00000063!important;
     display:block;
+    text-align:center;
  
 }
 
@@ -81,7 +82,7 @@ body {
 .marketMain_Grid {
     display:grid;
     grid:auto / repeat(1,1fr);
-    grid-gap:10px 10px
+    grid-gap:10px 10px;
 }
 
 
@@ -133,7 +134,9 @@ body {
     border-width: 2px;
 }
 
-
+.marketTitleCard {
+    background-color: red;
+}
 
 
 
@@ -159,6 +162,17 @@ body {
     border-style:solid;
     border-color:aqua;
     border-size:1px;
+    margin:10px;
+    padding:24.5px;
+}
+
+.buttonMarketTiny:hover {
+    background-color: rgba(26, 117, 255, 0.257);
+    color:white;
+    border-style:solid;
+    border-color:rgb(0, 162, 255);
+    border-size:1px;
+    margin:10px;
 }
 
 
